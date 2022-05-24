@@ -13,4 +13,4 @@ if(s<=1 and s>=0):
     elif(s<0.6):
         print('F')
 else:
-    print('please enter a value between 0.0 to 1.0')
+    print('Ooopsss! please enter a value between 0.0 to 1.0')
