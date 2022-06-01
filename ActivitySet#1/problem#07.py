@@ -11,6 +11,6 @@ while True:
         if smallest is None or smallest>n:
             smallest=n
     except:
-        print("Invalid input")
+        print("Invalid Input")
 print("Maximum is ",largest)
 print("Minimum is",smallest)
