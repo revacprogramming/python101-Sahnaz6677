@@ -10,5 +10,5 @@ for line in fh:
     n=float(line[f:])
     y=y+n
     count=count+1
-avg=y/count    
-print('Average spam confidence:',avg)
+average=y/count    
+print('Average spam confidence:',average)
