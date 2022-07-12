@@ -1,12 +1,17 @@
 
 
 def get_cs():
-    """get string input"""
+    s=input('Enter the string :')
+    return s
 
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
-
+    a=cs.split(';')
+    d=list()
+    for b in a:
+        c=b.split("=")
+        d.append(c)
+    return d
 
 def main():
     cs = get_cs()
